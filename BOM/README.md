@@ -2,13 +2,16 @@
 
 ## Содержание
 
-1. [Описание параметров;](#parameter-description)
-2. [Настройка Altium Designer](#altium-settings);
-3. [Использование шаблона.](#using)
+1. [Описание параметров компонетов;](#parameter-description)
+2. [Описание параметров схемы;](#sch-parameters)
+3. [Настройка Altium Designer;](#altium-settings);
+4. [Использование шаблона.](#using)
 
 
 <a name="parameter-description"></a>
 ## 1. Описание параметров
+
+Представленные ниже параметры используются для заполнения данных о компонентах в спецификации и перечне элементов (параметры добавляются в УГО каждого компонента).
 
 | Параметр | Описание |
 | ------ | ------ |
@@ -26,27 +29,35 @@
 | <a name="groupspecification"></a> GroupSpecification | Группа компонента в спецификации: <p>1 - Сборочные единицы;</p><p>2 - Детали;</p><p>3 - Стандартные изделия;</p><p>4 - Прочие изделия (По умолчанию)</p> |
 | DocNumber | Децимальный номер документа для параметра [GroupSpecification](#groupspecification) равному 1, 2 и 3 |
 
+<a name="sch-parameters"></a>
+## 2. Описание параметров схемы
+
 <a name="altium-settings"></a>
-## 2. Настройка Altium Designer
+## 3. Настройка Altium Designer
 Заполнение данных об элементах происходит на основе параметров УГО каждого компонента принципиальной схемы, имена параметров должны соотвествовать разделу [описание параметров](#parameter-description)
 
 Пример:
 
-![Параметры УГО]()
+![Параметры УГО](https://gitlab.цифтранс.рф/libraries/Altium_Templates/raw/master/BOM/Resources/parameters.png)
 
 Далее необходимо создать outputjob файл и добавить к проекту, после этого добавить элемент в группу Report Outputs, тип элемента Bill of materials:
 
-![Добавление элемента BOM]()
+![Добавление элемента BOM](https://gitlab.цифтранс.рф/libraries/Altium_Templates/raw/master/BOM/Resources/addBOM.png)
 
-Далее нужно сделать двойной щелчок мыши на добавленный элемент Report Outputs и включить нужные параметры:
+Далее нужно сделать двойной щелчок мыши на добавленный элемент Report Outputs и включить параметры из раздела [описание параметров](#parameter-description) в поле, отмеченном цифрой 2 на фотографии:
 
+![Настройка BOM](https://gitlab.цифтранс.рф/libraries/Altium_Templates/raw/master/BOM/Resources/setBOM.png)
 
-![Настройка BOM]()
+Поле отмеченное цифрой 1 на фотографии должно быть пустым.
 
-И теперь указать шаблон для генерации
+Теперь необходимо указать шаблон для генерации в отмеченном карсным цветом поле:
 
-![Путь к шаблону]()
+![Путь к шаблону](https://gitlab.цифтранс.рф/libraries/Altium_Templates/raw/master/BOM/Resources/addBOMtemplate.png)
 
 
 <a name="using"></a>
-## 3. Использование шаблона
+## 4. Использование шаблона
+
+В открытом файле outpujob необходимо использовать готову Folder structure либо создать новую в разделе Output Containers и затем нажать кнопку Run
+
+![Использование](https://gitlab.цифтранс.рф/libraries/Altium_Templates/raw/master/BOM/Resources/Using.png)
