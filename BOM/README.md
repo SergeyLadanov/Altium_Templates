@@ -52,21 +52,21 @@
 
 Пример:
 
-![Параметры УГО](https://gitlab.цифтранс.рф/libraries/Altium_Templates/raw/master/BOM/Resources/parameters.png)
+![Параметры УГО](Resources/parameters.png)
 
 Далее необходимо создать outputjob файл и добавить к проекту, после этого добавить элемент в группу Report Outputs, тип элемента Bill of materials:
 
-![Добавление элемента BOM](https://gitlab.цифтранс.рф/libraries/Altium_Templates/raw/master/BOM/Resources/addBOM.png)
+![Добавление элемента BOM](Resources/addBOM.png)
 
 Далее нужно сделать двойной щелчок мыши на добавленный элемент Report Outputs и включить параметры из раздела [описание параметров](#parameter-description) в поле, отмеченном цифрой 2 на фотографии:
 
-![Настройка BOM](https://gitlab.цифтранс.рф/libraries/Altium_Templates/raw/master/BOM/Resources/setBOM.png)
+![Настройка BOM](Resources/setBOM.png)
 
 Поле отмеченное цифрой 1 на фотографии должно быть пустым.
 
 Теперь необходимо указать шаблон для генерации в отмеченном карсным цветом поле:
 
-![Путь к шаблону](https://gitlab.цифтранс.рф/libraries/Altium_Templates/raw/master/BOM/Resources/addBOMtemplate.png)
+![Путь к шаблону](Resources/addBOMtemplate.png)
 
 
 <a name="using"></a>
@@ -74,4 +74,4 @@
 
 В открытом файле outpujob необходимо использовать готову Folder structure либо создать новую в разделе Output Containers и затем нажать кнопку Run
 
-![Использование](https://gitlab.цифтранс.рф/libraries/Altium_Templates/raw/master/BOM/Resources/Using.png)
+![Использование](Resources/Using.png)
