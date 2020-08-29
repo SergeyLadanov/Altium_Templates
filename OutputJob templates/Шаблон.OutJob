@@ -15,9 +15,9 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Шаблон.OutJob
+Name=
 Description=
-TargetOutputMedium=BOM документация
+TargetOutputMedium=CPL
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
@@ -39,8 +39,10 @@ OutputMedium5=Gerber
 OutputMedium5_Type=GeneratedFiles
 OutputMedium6=BOM документация
 OutputMedium6_Type=GeneratedFiles
-OutputMedium7=BOM автозаказ
+OutputMedium7=BOM заказ
 OutputMedium7_Type=GeneratedFiles
+OutputMedium8=CPL
+OutputMedium8_Type=GeneratedFiles
 OutputType1=Gerber
 OutputName1=Gerber Files
 OutputCategory1=Fabrication
@@ -54,6 +56,7 @@ OutputEnabled1_OutputMedium4=0
 OutputEnabled1_OutputMedium5=1
 OutputEnabled1_OutputMedium6=0
 OutputEnabled1_OutputMedium7=0
+OutputEnabled1_OutputMedium8=0
 OutputDefault1=0
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False
@@ -70,6 +73,7 @@ OutputEnabled2_OutputMedium4=0
 OutputEnabled2_OutputMedium5=2
 OutputEnabled2_OutputMedium6=0
 OutputEnabled2_OutputMedium7=0
+OutputEnabled2_OutputMedium8=0
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
 Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|NumberOfDecimals=2|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
@@ -78,7 +82,7 @@ OutputName3=BOM документация
 OutputCategory3=Report
 OutputDocumentPath3=
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=0
@@ -86,6 +90,7 @@ OutputEnabled3_OutputMedium4=0
 OutputEnabled3_OutputMedium5=0
 OutputEnabled3_OutputMedium6=1
 OutputEnabled3_OutputMedium7=0
+OutputEnabled3_OutputMedium8=0
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=8410|PaperWidth=5940|Scale=100|PaperSource=7|PrintQuality=300|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A1
 Configuration3_Name1=ColumnNameFormat
@@ -99,7 +104,7 @@ Configuration3_Item4=Designator=Up|Comment=Up|Footprint=Up
 Configuration3_Name5=VisibleOrder
 Configuration3_Item5=Designator=68|ManufacturerPartNumber=68|Comment=68|Description=68|Footprint=68|LibRef=68|Quantity=68|Power/Voltage=80|Tolerance=80|Type=80|Value=80|Корпус=80|Примечание=80
 OutputType4=BOM_PartType
-OutputName4=BOM автозаказ
+OutputName4=BOM заказ
 OutputCategory4=Report
 OutputDocumentPath4=
 OutputVariantName4=
@@ -111,6 +116,7 @@ OutputEnabled4_OutputMedium4=0
 OutputEnabled4_OutputMedium5=0
 OutputEnabled4_OutputMedium6=0
 OutputEnabled4_OutputMedium7=1
+OutputEnabled4_OutputMedium8=0
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=8410|PaperWidth=5940|Scale=100|PaperSource=7|PrintQuality=300|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A1
 Configuration4_Name1=ColumnNameFormat
@@ -123,6 +129,23 @@ Configuration4_Name4=SortOrder
 Configuration4_Item4=Designator=Up|Comment=Up|Footprint=Up
 Configuration4_Name5=VisibleOrder
 Configuration4_Item5=Designator=68|ManufacturerPartNumber=68|Comment=68|Description=68|Footprint=68|LibRef=68|Quantity=68|Power/Voltage=80|Tolerance=80|Type=80|Value=80|Корпус=80|Примечание=80
+OutputType5=Pick Place
+OutputName5=CPL
+OutputCategory5=Assembly
+OutputDocumentPath5=
+OutputVariantName5=
+OutputEnabled5=1
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=0
+OutputEnabled5_OutputMedium6=0
+OutputEnabled5_OutputMedium7=0
+OutputEnabled5_OutputMedium8=1
+OutputDefault5=0
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=True|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|Filter= |FilterActive=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:False,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:False,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15
 
 [PublishSettings]
 OutputFilePath2=
@@ -224,10 +247,23 @@ OutputPathOutputer7=[Output Type]
 OutputPathOutputerPrefix7=
 OutputPathOutputerValue7=
 OutputFileName7=
-OutputFileNameMulti7=BOM_автозаказ
+OutputFileNameMulti7=BOM
 UseOutputNameForMulti7=0
 OutputFileNameSpecial7=
 OpenOutput7=1
+OutputFilePath8=.\
+ReleaseManaged8=0
+OutputBasePath8=.\
+OutputPathMedia8=
+OutputPathMediaValue8=
+OutputPathOutputer8=[Output Type]
+OutputPathOutputerPrefix8=
+OutputPathOutputerValue8=
+OutputFileName8=
+OutputFileNameMulti8=CPL
+UseOutputNameForMulti8=0
+OutputFileNameSpecial8=
+OpenOutput8=1
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=
@@ -264,4 +300,14 @@ OpenGerberOutput7=0
 OpenNCDrillOutput7=0
 OpenIPCOutput7=0
 EnableReload7=0
+RelativeOutputPath8=.\
+OpenOutputs8=1
+AddToProject8=1
+TimestampFolder8=0
+UseOutputName8=0
+OpenODBOutput8=0
+OpenGerberOutput8=0
+OpenNCDrillOutput8=0
+OpenIPCOutput8=0
+EnableReload8=0
 
