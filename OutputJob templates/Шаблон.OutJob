@@ -15,9 +15,9 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=Job Group
 Description=
-TargetOutputMedium=CPL
+TargetOutputMedium=BOM заказ
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
@@ -103,9 +103,9 @@ Configuration3_Name4=SortOrder
 Configuration3_Item4=Designator=Up|Comment=Up|Footprint=Up
 Configuration3_Name5=VisibleOrder
 Configuration3_Item5=Designator=68|ManufacturerPartNumber=68|Comment=68|Description=68|Footprint=68|LibRef=68|Quantity=68|Power/Voltage=80|Tolerance=80|Type=80|Value=80|Корпус=80|Примечание=80
-OutputType4=BOM_PartType
-OutputName4=BOM заказ
-OutputCategory4=Report
+OutputType4=Pick Place
+OutputName4=CPL
+OutputCategory4=Assembly
 OutputDocumentPath4=
 OutputVariantName4=
 OutputEnabled4=0
@@ -115,23 +115,14 @@ OutputEnabled4_OutputMedium3=0
 OutputEnabled4_OutputMedium4=0
 OutputEnabled4_OutputMedium5=0
 OutputEnabled4_OutputMedium6=0
-OutputEnabled4_OutputMedium7=1
-OutputEnabled4_OutputMedium8=0
+OutputEnabled4_OutputMedium7=0
+OutputEnabled4_OutputMedium8=1
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=8410|PaperWidth=5940|Scale=100|PaperSource=7|PrintQuality=300|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A1
-Configuration4_Name1=ColumnNameFormat
-Configuration4_Item1=CaptionAsName
-Configuration4_Name2=General
-Configuration4_Item2=OpenExported=True|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=D:\Program Files\Altium\New templates\BOM\BOM документация 2.4.xls|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1482|FormHeight=825|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
-Configuration4_Name3=GroupOrder
-Configuration4_Item3=
-Configuration4_Name4=SortOrder
-Configuration4_Item4=Designator=Up|Comment=Up|Footprint=Up
-Configuration4_Name5=VisibleOrder
-Configuration4_Item5=Designator=68|ManufacturerPartNumber=68|Comment=68|Description=68|Footprint=68|LibRef=68|Quantity=68|Power/Voltage=80|Tolerance=80|Type=80|Value=80|Корпус=80|Примечание=80
-OutputType5=Pick Place
-OutputName5=CPL
-OutputCategory5=Assembly
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=True|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|Filter= |FilterActive=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:False,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:False,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15
+OutputType5=BOM_PartType
+OutputName5=BOM заказ
+OutputCategory5=Report
 OutputDocumentPath5=
 OutputVariantName5=
 OutputEnabled5=1
@@ -140,12 +131,23 @@ OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
 OutputEnabled5_OutputMedium4=0
 OutputEnabled5_OutputMedium5=0
-OutputEnabled5_OutputMedium6=0
-OutputEnabled5_OutputMedium7=0
-OutputEnabled5_OutputMedium8=1
+OutputEnabled5_OutputMedium6=2
+OutputEnabled5_OutputMedium7=1
+OutputEnabled5_OutputMedium8=0
 OutputDefault5=0
-Configuration5_Name1=OutputConfigurationParameter1
-Configuration5_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=True|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|Filter= |FilterActive=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:False,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:False,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=8410|PaperWidth=5940|Scale=100|PaperSource=7|PrintQuality=300|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A1
+Configuration5_Name1=ColumnNameFormat
+Configuration5_Item1=CaptionAsName
+Configuration5_Name2=General
+Configuration5_Item2=OpenExported=True|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=D:\WorkSpace\AssemblyTemplate\BOM под автоматический заказ.xls|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1482|FormHeight=825|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration5_Name3=GroupOrder
+Configuration5_Item3=Tolerance=True|ManufacturerPartNumber=True|Power/Voltage=True|Value=True|Корпус=True
+Configuration5_Name4=SortOrder
+Configuration5_Item4=Designator=Up|Comment=Up|Footprint=Up
+Configuration5_Name5=VisibleOrder
+Configuration5_Item5=Designator=150|ManufacturerPartNumber=123|Comment=68|Description=68|Footprint=68|LibRef=68|Quantity=68|Power/Voltage=80|Tolerance=80|Type=80|Value=80|Корпус=80|Примечание=80
+Configuration5_Name6=VisibleOrder_Flat
+Configuration5_Item6=Designator=150|ManufacturerPartNumber=123|Comment=68|Description=68|Footprint=68|LibRef=68|Quantity=68|Power/Voltage=80|Tolerance=80|Type=80|Value=80|Корпус=80|Примечание=80
 
 [PublishSettings]
 OutputFilePath2=
