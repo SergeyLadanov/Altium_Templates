@@ -1,0 +1,15 @@
+|RECORD=BOM|VERSION=2|FILENAME=D:\Templates\Altium\BOM\ActiveBOM.$$$|KIND=ALTIUM_DESIGNER_LIVEBOM|DATE=15.10.2020|TIME=15:59:38|CURRENCY=USD|PRODUCTIONQUANTITY=1|PERUNITTARGETPRICE=0|PERUNITACTUALPRICE=0
+|RECORD=GeneralOptions|OPENEXPORTED=False|ADDTOPROJECT=False|FORCEFIT=False|NOTFITTED=False|TEMPLATEFILENAME=|BATCHMODE=0|SUPPLIERPRODQTY=0|SUPPLIERAUTOQTY=False|SUPPLIERUSECACHEDPRICING=False|SUPPLIERCURRENCY=|SOLUTIONSPERITEM=1|SUPPLIERSPERSOLUTION=1|DISPLAYTOTALROW=False|DISPLAYSUBTOTALSFORGROUPS=False|INCLUDEPCBPARAMETERS=False|INCLUDEDBPARAMETERS=False|INCLUDEVAULTPARAMETERS=False|INCLUDECLOUDPARAMETERS=False|INCLUDEDOCUMENTPARAMETERS=False|FILTEROUTRISKYSOLUTIONS=True|DESIGNATORGROUPING=No
+|RECORD=SortOrderOptions|SORTORDER=Designator=Up
+|RECORD=GroupOrderOptions|GROUPORDER=
+|RECORD=VisibleOrderOptions|VISIBLEORDER=Line #=53!Comment=117!Description=79!Designator=77!Revision ID=78!Revision State=115!Revision Status=97!ModuleAssembly=107!Quantity=67!ManufacturerPartNumber=150!DocNumber=83!Rem=45!GroupSpecification=115!Manufacturer 1=99!Manufacturer Part Number 1=166!Manufacturer Lifecycle 1=143!Supplier 1=72!Supplier Part Number 1=139!Supplier Unit Price 1=123!Supplier Subtotal 1=116
+|RECORD=VisibleOrderOptions2|BASEVIEW=Line #=53!Comment=117!Description=79!Designator=77!Revision ID=78!Revision State=115!Revision Status=97!ModuleAssembly=107!Quantity=67!ManufacturerPartNumber=150!DocNumber=83!Rem=45!GroupSpecification=115!Manufacturer 1=99!Manufacturer Part Number 1=166!Manufacturer Lifecycle 1=143!Supplier 1=72!Supplier Part Number 1=139!Supplier Unit Price 1=123!Supplier Subtotal 1=116|FLATVIEW=Line #=-1!Comment=-1!Description=-1!Designator=-1!Revision ID=-1!Revision State=-1!Revision Status=-1!ModuleAssembly=-1!Manufacturer 1=99!Manufacturer Part Number 1=166!Manufacturer Lifecycle 1=143!Supplier 1=72!Supplier Part Number 1=139!Supplier Unit Price 1=123!Supplier Subtotal 1=116|CONSOLIDATEDVIEW=Line #=-1!Comment=-1!Description=-1!Designator=-1!Revision ID=-1!Revision State=-1!Revision Status=-1!ModuleAssembly=-1!Quantity=-1!Manufacturer 1=99!Manufacturer Part Number 1=166!Manufacturer Lifecycle 1=143!Supplier 1=72!Supplier Part Number 1=139!Supplier Unit Price 1=123!Supplier Subtotal 1=116
+|RECORD=CustomColumns|CUSTOMCOLUMNS=DocNumber=83
+|RECORD=ColumnsAliases|COLUMNSALIASES=Comment=Name
+|RECORD=FilterOptions|FILTER=
+|RECORD=CheckGroupCompParamsOptions|CHECKGROUPCOMPPARAMS=Comment=0,Description=0,Value=0,Footprint=1
+|RECORD=ManufacturerLinkOptions|MANUFACTURERLINKPARAMETERS=
+|RECORD=FavoriteSuppliers|SUPPLIERS=|USESUPPLIERORDER=False
+|RECORD=CheckOptions|CHECKLEVELS=
+|RECORD=LineNumberingOptions|STARTVALUE=|INCREMENT=
+|RECORD=Catalog|DBLINKFILEPATH=
