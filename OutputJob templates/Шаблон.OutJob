@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Job Group
 Description=
-TargetOutputMedium=BOM заказ
+TargetOutputMedium=BOM ЕСКД
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
@@ -37,7 +37,7 @@ OutputMedium4_Printer=doPDF 8
 OutputMedium4_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium5=Gerber
 OutputMedium5_Type=GeneratedFiles
-OutputMedium6=BOM документация
+OutputMedium6=BOM ЕСКД
 OutputMedium6_Type=GeneratedFiles
 OutputMedium7=BOM заказ
 OutputMedium7_Type=GeneratedFiles
@@ -78,11 +78,11 @@ OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
 Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|NumberOfDecimals=2|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
 OutputType3=BOM_PartType
-OutputName3=BOM документация
+OutputName3=BOM ЕСКД
 OutputCategory3=Report
 OutputDocumentPath3=
 OutputVariantName3=
-OutputEnabled3=0
+OutputEnabled3=1
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=0
